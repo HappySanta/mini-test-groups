@@ -1,0 +1,17 @@
+{
+  "name": "@happysanta/mini-test-groups",
+  "version": "0.0.1",
+  "description": "Deploy mini app to test group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Nedzvetskiy",
+  "license": "ISC",
+  "bin": {
+    "test-11-22": "bin/test-11-22.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
