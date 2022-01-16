@@ -1,6 +1,6 @@
 {
   "name": "@happysanta/mini-test-groups",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Deploy mini app to test group",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,15 @@
   "author": "Ivan Nedzvetskiy",
   "license": "ISC",
   "bin": {
-    "test-11-22": "bin/test-11-22.js"
+    "mini-test-groups": "src/bin/mini-test-groups.mjs",
+    "mini-test-groups-set-s3": "src/bin/mini-test-groups-set-s3.mjs"
   },
   "dependencies": {
+    "commander": "^8.3.0",
+    "configstore": "^6.0.0",
+    "node-vk-bot-api": "^3.5.0",
+    "prompts": "^2.4.2",
+    "s3-client": "^4.4.2",
     "shelljs": "^0.8.5"
   }
 }
